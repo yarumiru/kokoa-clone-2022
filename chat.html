@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chat - Kokoa Clone</title>
+  </head>
+  <body id="chat-screen">
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fa-sharp fa-solid fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>14:36</span>
+      </div>
+      <div class="status-bar__column">
+        <span>11%</span>
+        <i class="fa-solid fa-battery-quarter fa-lg"></i>
+        <i class="fa-sharp fa-solid fa-bolt"></i>
+      </div>
+    </div>
+
+    <header class="alt-header">
+      <div class="alt-header__column">
+        <a href="chats.html"><i class="fas fa-angle-left fa-3x"></i></a>
+      </div>
+      <div class="alt-header__column">
+        <h1 class="alt-header__title">Wooyoung</h1>
+      </div>
+      <div class="alt-header__column">
+        <span><i class="fa-solid fa-magnifying-glass fa-2x"></i></span>
+        <span><i class="fa-solid fa-bars fa-2x"></i></span>
+      </div>
+    </header>
+
+    <main class="main-screen main-chat">
+      <div class="chat__timestamp">Tuesday, DEC 19:25, 2022</div>
+
+      <div class="message-row">
+        <img src="profile.jpg" />
+        <div class="message-row__content">
+          <span class="message__author">Wooyoung</span>
+          <div class="message__info">
+            <span class="message__bubble">Hi!</span>
+            <span class="message__time">11:38</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="message-row message-row--own">
+        <div class="message-row__content">
+          <div class="message__info">
+            <span class="message__bubble">What's up?</span>
+            <span class="message__time">11:38</span>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <form class="reply">
+      <div class="reply__column">
+        <i class="fa-regular fa-square-plus fa-lg"></i>
+      </div>
+      <div class="reply__column">
+        <input type="text" placeholder="write a message..." />
+        <i class="fa-regular fa-face-smile fa-lg"></i>
+        <button>
+          <i class="fa-sharp fa-solid fa-arrow-up"></i>
+        </button>
+      </div>
+    </form>
+
+    <div id="no-mobile">
+      <span>Your Screen is so big</span>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/31915a1820.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
